@@ -1,0 +1,29 @@
+@mixin button($padding) {
+    padding: $padding;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.imgCont {
+    margin-top: -5px;
+    padding: 10px;
+
+    h3 {
+        margin-bottom: 8px;
+        color: bisque;
+    }
+
+    .footer {
+        width: 100%;
+        margin-top: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h5 {
+            @include button(10px);
+        }
+        p {
+            @include button(8px);  }
+    }
+}
