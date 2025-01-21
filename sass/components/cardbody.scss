@@ -1,8 +1,9 @@
-@mixin button($padding) {
-    padding: $padding;
-    background-color: black;
-    border-radius: 15px;
-}
+
+// @mixin button($padding) {
+//     padding: $padding;
+//     background-color: black;
+//     border-radius: 15px;
+// }
 
 .imgCont {
     margin-top: -5px;
@@ -20,10 +21,10 @@
         justify-content: space-between;
         align-items: center;
 
-        h5 {
-            @include button(10px);
-        }
-        p {
-            @include button(8px);  }
+    //     h5 {
+    //         @include button(10px);
+    //     }
+    //     p {
+    //         @include button(8px);  }
     }
 }

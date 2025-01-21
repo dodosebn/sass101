@@ -1,0 +1,33 @@
+form{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    .div-inp{
+        position: relative;
+        display: flex;
+    #inputa{
+        padding: 0.5rem 2rem 0.5rem 0.5rem;
+        border-width: 1px;
+        outline: none;
+        border-radius: 7px;
+        text-indent: 15px;
+    }
+    i{
+        position:absolute;
+        left: 3px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1rem;
+        color: #aaa;
+    }
+}
+    #temeSwitcher{
+        border: none;
+    }
+    div > img{
+
+width: 2rem;
+height: 2rem;
+border-radius: 50%;
+    }
+}
